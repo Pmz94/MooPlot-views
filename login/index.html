@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Acceder a Moo Plot</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+
+  <link rel='stylesheet prefetch' href='http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <div ng-app="App" ng-controller="AppCtrl" layout="row" layout-fill ng-cloak>
+    <section layout="column" flex layout-align="center center" class="login">
+        <md-card class="md-whiteframe-4dp">
+            <md-toolbar>
+                <div layout="column" layout-padding layout-align="center center">
+                    <div>
+                        <img src="img/mooplot.png" alt="" />
+                    </div>
+                    <div class="md-headline md-padding" style="font-size:16px">Login</div>
+                </div>
+            </md-toolbar>
+            <md-card-content>
+                <form name="login">
+                    <md-input-container class="md-block">
+                        <label for="email">Correo</label>
+                        <input type="email" name="email" ng-model="vm.email" required />
+                    </md-input-container>
+                    <md-input-container class="md-block">
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="password" ng-model="vm.password" required />
+                    </md-input-container>
+                    <md-input-container class="md-block">
+                        <div layout="row" layout-align="center center">
+                            <md-button class="md-raised md-accent" flex="50">Login</md-button>
+                        </div>
+                    </md-input-container>
+                </form>
+            </md-card-content>
+        </md-card>
+    </section>
+</div>
+  <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
