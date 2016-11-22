@@ -1,0 +1,16 @@
+body {
+  background-color: #EEEEEE;
+  padding-top: 65px;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand > img {
+  -webkit-filter: invert(1);
+   filter: invert(1);
+   margin-top: -5px;
+}
+
+.card-container {
+  padding-top: 10px;
+}
