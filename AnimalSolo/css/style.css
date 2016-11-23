@@ -1,6 +1,7 @@
 body {
   background-color: #EEEEEE;
   padding-top: 70px;
+
 }
 .navbar-brand {
   padding: 0px;
@@ -16,4 +17,20 @@ body {
 
 .card-container {
   padding-top: 10px;
+
+}
+.container-full{
+  background-color: white;
+  height: 2000px;
+  margin-top: -18px  !important;
+  margin-bottom: -18px  !important;
+
+}
+.kkwate{
+
+
+}
+.stat-padding{
+  border: 1px solid;
+  border-radius: 8px;
 }
